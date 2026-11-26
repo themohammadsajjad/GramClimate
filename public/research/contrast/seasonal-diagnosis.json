@@ -1,0 +1,254 @@
+{
+  "generated": "2026-10-29",
+  "scope": "16 GFS grid cells; analyst-defined latitude groups; not panchayats",
+  "inputSHA256": "aaa1868b7bf80e63ef51627168c1e9fdc4728a1364f616a1c8208cca83fc538d",
+  "periods": {
+    "training": [
+      "2025-01-01",
+      "2025-06-30"
+    ],
+    "validation": [
+      "2025-07-04",
+      "2025-09-30"
+    ]
+  },
+  "settings": {
+    "alpha": 0.5,
+    "components": 2,
+    "maxK": 4
+  },
+  "features": [
+    {
+      "feature": "temperature_2m_previous_day1",
+      "meanShiftInTrainingSpatialSD": 2.382693594987018
+    },
+    {
+      "feature": "relative_humidity_2m_previous_day1",
+      "meanShiftInTrainingSpatialSD": 21.771056140832524
+    },
+    {
+      "feature": "precipitation_previous_day1",
+      "meanShiftInTrainingSpatialSD": 22.527249981689163
+    },
+    {
+      "feature": "wind_speed_10m_previous_day1",
+      "meanShiftInTrainingSpatialSD": -2.012944351325039
+    },
+    {
+      "feature": "pressure_msl_previous_day1",
+      "meanShiftInTrainingSpatialSD": -28.83341414043926
+    },
+    {
+      "feature": "cloud_cover_previous_day1",
+      "meanShiftInTrainingSpatialSD": 8.126232606317098
+    },
+    {
+      "feature": "temperature_2m_previous_day3",
+      "meanShiftInTrainingSpatialSD": 1.7707433251032152
+    },
+    {
+      "feature": "relative_humidity_2m_previous_day3",
+      "meanShiftInTrainingSpatialSD": 23.626946257756998
+    },
+    {
+      "feature": "precipitation_previous_day3",
+      "meanShiftInTrainingSpatialSD": 10.767471369762701
+    },
+    {
+      "feature": "wind_speed_10m_previous_day3",
+      "meanShiftInTrainingSpatialSD": -2.541946969663429
+    },
+    {
+      "feature": "pressure_msl_previous_day3",
+      "meanShiftInTrainingSpatialSD": -25.495723989386853
+    },
+    {
+      "feature": "cloud_cover_previous_day3",
+      "meanShiftInTrainingSpatialSD": 7.62656243911949
+    }
+  ],
+  "fits": [
+    {
+      "method": "Standard PCA",
+      "shiftToTrainingRadius": 3.1521434328504374,
+      "candidates": [
+        {
+          "k": 2,
+          "originalARI": 0,
+          "originalOccupiedClusters": 1,
+          "recenteredARI": 1,
+          "recenteredOccupiedClusters": 2,
+          "fixedLabelSilhouette": 0.6253448331380724,
+          "originalSizes": [
+            0,
+            16
+          ],
+          "recenteredSizes": [
+            13,
+            3
+          ]
+        },
+        {
+          "k": 3,
+          "originalARI": 0,
+          "originalOccupiedClusters": 1,
+          "recenteredARI": 0.531642040702537,
+          "recenteredOccupiedClusters": 3,
+          "fixedLabelSilhouette": 0.2399976242721979,
+          "originalSizes": [
+            0,
+            0,
+            16
+          ],
+          "recenteredSizes": [
+            11,
+            2,
+            3
+          ]
+        },
+        {
+          "k": 4,
+          "originalARI": 0,
+          "originalOccupiedClusters": 1,
+          "recenteredARI": 0.4138717030283295,
+          "recenteredOccupiedClusters": 4,
+          "fixedLabelSilhouette": 0.15061063935350572,
+          "originalSizes": [
+            0,
+            0,
+            0,
+            16
+          ],
+          "recenteredSizes": [
+            6,
+            7,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Reliability-weighted PCA",
+      "shiftToTrainingRadius": 3.1521434328504374,
+      "candidates": [
+        {
+          "k": 2,
+          "originalARI": 0,
+          "originalOccupiedClusters": 1,
+          "recenteredARI": 1,
+          "recenteredOccupiedClusters": 2,
+          "fixedLabelSilhouette": 0.6253448331380724,
+          "originalSizes": [
+            0,
+            16
+          ],
+          "recenteredSizes": [
+            13,
+            3
+          ]
+        },
+        {
+          "k": 3,
+          "originalARI": 0,
+          "originalOccupiedClusters": 1,
+          "recenteredARI": 0.531642040702537,
+          "recenteredOccupiedClusters": 3,
+          "fixedLabelSilhouette": 0.2399976242721979,
+          "originalSizes": [
+            0,
+            0,
+            16
+          ],
+          "recenteredSizes": [
+            11,
+            2,
+            3
+          ]
+        },
+        {
+          "k": 4,
+          "originalARI": 0,
+          "originalOccupiedClusters": 1,
+          "recenteredARI": 0.4138717030283295,
+          "recenteredOccupiedClusters": 4,
+          "fixedLabelSilhouette": 0.15061063935350572,
+          "originalSizes": [
+            0,
+            0,
+            0,
+            16
+          ],
+          "recenteredSizes": [
+            6,
+            7,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Within-group contrast PCA",
+      "shiftToTrainingRadius": 2.993217896941161,
+      "candidates": [
+        {
+          "k": 2,
+          "originalARI": 0,
+          "originalOccupiedClusters": 1,
+          "recenteredARI": 1,
+          "recenteredOccupiedClusters": 2,
+          "fixedLabelSilhouette": 0.6253448331380724,
+          "originalSizes": [
+            0,
+            16
+          ],
+          "recenteredSizes": [
+            13,
+            3
+          ]
+        },
+        {
+          "k": 3,
+          "originalARI": 0,
+          "originalOccupiedClusters": 1,
+          "recenteredARI": 0.531642040702537,
+          "recenteredOccupiedClusters": 3,
+          "fixedLabelSilhouette": 0.2399976242721979,
+          "originalSizes": [
+            0,
+            0,
+            16
+          ],
+          "recenteredSizes": [
+            11,
+            2,
+            3
+          ]
+        },
+        {
+          "k": 4,
+          "originalARI": 0,
+          "originalOccupiedClusters": 1,
+          "recenteredARI": 0.5701725822207749,
+          "recenteredOccupiedClusters": 4,
+          "fixedLabelSilhouette": 0.15061063935350572,
+          "originalSizes": [
+            0,
+            0,
+            0,
+            16
+          ],
+          "recenteredSizes": [
+            7,
+            6,
+            1,
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "interpretation": "A common seasonal translation can collapse nearest-centroid assignments while leaving fixed-label silhouette unchanged. Recentring uses the entire validation cohort: this is a transductive diagnostic, not an independently validated correction. Training standard deviations measure between-cell variation of period means, not daily weather variability.",
+  "nextExperiment": "Fit a pooled seasonal adjustment using full prior years only; freeze it before evaluation on untouched years and blocks. Compare raw, seasonal-adjusted standard PCA, and seasonal-adjusted contrast PCA at identical ranks and k. No model superiority or patent novelty is established."
+}

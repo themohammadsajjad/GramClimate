@@ -1,0 +1,534 @@
+{
+  "protocolSha256": "89d62b2fcfbd9128c715aec75e951c79e4961dc1405b2a81f9d54324d02ffd82",
+  "selected": "candidate-1",
+  "candidates": [
+    {
+      "id": "candidate-0",
+      "config": {
+        "algorithm": "kmeans",
+        "k": 4,
+        "variance": 90,
+        "starts": 1,
+        "reduction": "pca",
+        "eps": 1.2,
+        "minPts": 4
+      },
+      "labels": [
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        1,
+        1
+      ],
+      "sizes": [
+        5,
+        2,
+        1,
+        8
+      ],
+      "train": 0.2642998389313179,
+      "validation": 0.04172271140287547,
+      "stability": 0.5677106733327011,
+      "components": 2,
+      "eligible": false
+    },
+    {
+      "id": "candidate-1",
+      "config": {
+        "algorithm": "kmeans",
+        "k": 2,
+        "variance": 90,
+        "starts": 16,
+        "reduction": "pca",
+        "eps": 1.2,
+        "minPts": 4
+      },
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "sizes": [
+        13,
+        3
+      ],
+      "train": 0.6065964574515941,
+      "validation": 0.6253448331380685,
+      "stability": 0.9385245901639343,
+      "components": 2,
+      "eligible": true
+    },
+    {
+      "id": "candidate-2",
+      "config": {
+        "algorithm": "kmeans",
+        "k": 2,
+        "variance": 95,
+        "starts": 16,
+        "reduction": "pca",
+        "eps": 1.2,
+        "minPts": 4
+      },
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "sizes": [
+        13,
+        3
+      ],
+      "train": 0.6065964574515941,
+      "validation": 0.6253448331380685,
+      "stability": 0.9385245901639343,
+      "components": 3,
+      "eligible": true
+    },
+    {
+      "id": "candidate-3",
+      "config": {
+        "algorithm": "kmeans",
+        "k": 2,
+        "variance": 100,
+        "starts": 16,
+        "reduction": "none",
+        "eps": 1.2,
+        "minPts": 4
+      },
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "sizes": [
+        13,
+        3
+      ],
+      "train": 0.6065964574515941,
+      "validation": 0.6253448331380685,
+      "stability": 0.935450819672131,
+      "components": 12,
+      "eligible": true
+    },
+    {
+      "id": "candidate-4",
+      "config": {
+        "algorithm": "kmeans",
+        "k": 3,
+        "variance": 90,
+        "starts": 16,
+        "reduction": "pca",
+        "eps": 1.2,
+        "minPts": 4
+      },
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "sizes": [
+        9,
+        2,
+        5
+      ],
+      "train": 0.37768825485195445,
+      "validation": 0.23999762427218757,
+      "stability": 0.8307649369742756,
+      "components": 2,
+      "eligible": true
+    },
+    {
+      "id": "candidate-5",
+      "config": {
+        "algorithm": "kmeans",
+        "k": 3,
+        "variance": 95,
+        "starts": 16,
+        "reduction": "pca",
+        "eps": 1.2,
+        "minPts": 4
+      },
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "sizes": [
+        9,
+        2,
+        5
+      ],
+      "train": 0.37768825485195445,
+      "validation": 0.23999762427218757,
+      "stability": 0.8243337559725953,
+      "components": 3,
+      "eligible": true
+    },
+    {
+      "id": "candidate-6",
+      "config": {
+        "algorithm": "kmeans",
+        "k": 3,
+        "variance": 100,
+        "starts": 16,
+        "reduction": "none",
+        "eps": 1.2,
+        "minPts": 4
+      },
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "sizes": [
+        9,
+        2,
+        5
+      ],
+      "train": 0.37768825485195445,
+      "validation": 0.23999762427218757,
+      "stability": 0.8344746467433418,
+      "components": 12,
+      "eligible": true
+    },
+    {
+      "id": "candidate-7",
+      "config": {
+        "algorithm": "kmeans",
+        "k": 4,
+        "variance": 90,
+        "starts": 16,
+        "reduction": "pca",
+        "eps": 1.2,
+        "minPts": 4
+      },
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        1,
+        1
+      ],
+      "sizes": [
+        7,
+        2,
+        1,
+        6
+      ],
+      "train": 0.325438071441986,
+      "validation": 0.1506106393534947,
+      "stability": 0.6938806892939111,
+      "components": 2,
+      "eligible": false
+    },
+    {
+      "id": "candidate-8",
+      "config": {
+        "algorithm": "kmeans",
+        "k": 4,
+        "variance": 95,
+        "starts": 16,
+        "reduction": "pca",
+        "eps": 1.2,
+        "minPts": 4
+      },
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        1,
+        1
+      ],
+      "sizes": [
+        7,
+        2,
+        1,
+        6
+      ],
+      "train": 0.325438071441986,
+      "validation": 0.1506106393534947,
+      "stability": 0.6366529991970834,
+      "components": 3,
+      "eligible": false
+    },
+    {
+      "id": "candidate-9",
+      "config": {
+        "algorithm": "kmeans",
+        "k": 4,
+        "variance": 100,
+        "starts": 16,
+        "reduction": "none",
+        "eps": 1.2,
+        "minPts": 4
+      },
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        1,
+        1
+      ],
+      "sizes": [
+        7,
+        2,
+        1,
+        6
+      ],
+      "train": 0.325438071441986,
+      "validation": 0.1506106393534947,
+      "stability": 0.6253555628875731,
+      "components": 12,
+      "eligible": false
+    },
+    {
+      "id": "candidate-10",
+      "config": {
+        "algorithm": "kmeans",
+        "k": 5,
+        "variance": 90,
+        "starts": 16,
+        "reduction": "pca",
+        "eps": 1.2,
+        "minPts": 4
+      },
+      "labels": [
+        0,
+        0,
+        4,
+        4,
+        0,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        1,
+        1
+      ],
+      "sizes": [
+        3,
+        2,
+        1,
+        5,
+        5
+      ],
+      "train": 0.3138124798591886,
+      "validation": 0.1082852412707905,
+      "stability": 0.6270560374869529,
+      "components": 2,
+      "eligible": false
+    },
+    {
+      "id": "candidate-11",
+      "config": {
+        "algorithm": "kmeans",
+        "k": 5,
+        "variance": 95,
+        "starts": 16,
+        "reduction": "pca",
+        "eps": 1.2,
+        "minPts": 4
+      },
+      "labels": [
+        0,
+        0,
+        4,
+        4,
+        0,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        1,
+        1
+      ],
+      "sizes": [
+        3,
+        2,
+        1,
+        6,
+        4
+      ],
+      "train": 0.3364887852593301,
+      "validation": 0.07762816478674892,
+      "stability": 0.5851164483598743,
+      "components": 3,
+      "eligible": false
+    },
+    {
+      "id": "candidate-12",
+      "config": {
+        "algorithm": "kmeans",
+        "k": 5,
+        "variance": 100,
+        "starts": 16,
+        "reduction": "none",
+        "eps": 1.2,
+        "minPts": 4
+      },
+      "labels": [
+        0,
+        0,
+        4,
+        4,
+        0,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        1,
+        1
+      ],
+      "sizes": [
+        3,
+        2,
+        1,
+        6,
+        4
+      ],
+      "train": 0.3364887852593301,
+      "validation": 0.07762816478674892,
+      "stability": 0.5805735818874,
+      "components": 12,
+      "eligible": false
+    }
+  ],
+  "testInspected": false
+}

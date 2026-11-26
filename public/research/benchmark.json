@@ -1,0 +1,128 @@
+{
+  "protocolSha256": "89d62b2fcfbd9128c715aec75e951c79e4961dc1405b2a81f9d54324d02ffd82",
+  "dataQualityAmendmentSha256": "595e020018c79ecd1f48f445624987c009379f1f5c84863da853e5c58d7c87af",
+  "selected": {
+    "id": "candidate-1",
+    "config": {
+      "algorithm": "kmeans",
+      "k": 2,
+      "variance": 90,
+      "starts": 16,
+      "reduction": "pca",
+      "eps": 1.2,
+      "minPts": 4
+    },
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    "sizes": [
+      13,
+      3
+    ],
+    "train": 0.6065964574515941,
+    "validation": 0.6253448331380685,
+    "stability": 0.9385245901639343,
+    "components": 2,
+    "eligible": true
+  },
+  "baselineConfig": {
+    "algorithm": "kmeans",
+    "k": 4,
+    "variance": 90,
+    "starts": 1,
+    "reduction": "pca",
+    "eps": 1.2,
+    "minPts": 4
+  },
+  "test": {
+    "period": "4 Jan\u201330 Sep 2026",
+    "days": 268,
+    "excludedDates": [
+      "2026-04-18",
+      "2026-04-19"
+    ],
+    "locations": 16,
+    "hourlyRecords": 102912,
+    "baseline": 0.24167541473642318,
+    "candidate": 0.5977259618007631,
+    "delta": 0.3560505470643399,
+    "pairedDeltaCI95": [
+      0.3126113840086438,
+      0.42367864646733483
+    ],
+    "quarterly": [
+      {
+        "period": "Q1 2026",
+        "days": 87,
+        "baseline": 0.16614494719871434,
+        "candidate": 0.486450014054169
+      },
+      {
+        "period": "Q2 2026",
+        "days": 89,
+        "baseline": 0.22798976084552458,
+        "candidate": 0.639346910164957
+      },
+      {
+        "period": "Q3 2026",
+        "days": 92,
+        "baseline": 0.2032013376301741,
+        "candidate": 0.5382868007113615
+      }
+    ]
+  },
+  "promoted": true,
+  "activeConfig": {
+    "algorithm": "kmeans",
+    "k": 2,
+    "variance": 90,
+    "starts": 16,
+    "reduction": "pca",
+    "eps": 1.2,
+    "minPts": 4
+  },
+  "source": {
+    "provider": "NOAA GFS via Open-Meteo",
+    "clippedValuesInDownloaded2026Archive": 0,
+    "rawHashes": {
+      "GRID-001.json": "cdf1584a5f8fe0c3a13a5afd7996311640426c500bcdacddd45b4be93e126009",
+      "GRID-002.json": "0e1d422340b0e99ba43734172a7790d2985f1b6fa1d26d9f36bb9c66db916e90",
+      "GRID-003.json": "51f69ec84f48e7d687bac5f6499ee9d382265e5eaff0ffc35d7567cc5ad9474c",
+      "GRID-004.json": "a3cf26dbd35b85cfd978b50155ca25f3c4f786b7eaa758344fe87f03520d026a",
+      "GRID-005.json": "953109af38b33d3eeee6f7486726eb4e2b768203f41f3f8b8ae02c4f54a54f8c",
+      "GRID-006.json": "cf7b028b93886acff75a064640e0e58f4b38446a15f98512ca8d1a26231c5edc",
+      "GRID-007.json": "f3f375230ac87ca61885b82bf6d38133507eb23338793eecd9169dc30a15eca4",
+      "GRID-008.json": "1ccedc8cf28798e2c1abd3ecca5f69ef4f947bcb0e6344e42b94cdb339f9dee9",
+      "GRID-009.json": "3fd5deb3ec7587eb8b1f858acadb7db9ffc6e5837dc2f9d44d76b1beb2c97b03",
+      "GRID-010.json": "4ceb62af333caefd364f988de17e3813c49225cda834a3d72c0f5d41106b6593",
+      "GRID-011.json": "cb326a35e152af2c64ed84d618b3bdfadce26655786d8d373b48056d932535b2",
+      "GRID-012.json": "150cfa80564f4dee646d0bc231fac5b4089481b2dad21b7cdc9969a1503d68d9",
+      "GRID-013.json": "09c69d4170c10042302afb2c7cf521f8ccb0996b022bff9a8e6239d2493789a5",
+      "GRID-014.json": "90f787f0f51af4bdad7497a21eb53ba24023085c3f101eaca587541693cdfcd2",
+      "GRID-015.json": "a56e213803aff70be5de8cd1623d16e0b4f96e6ee9c02fcc17ee2bc43e9a3022",
+      "GRID-016.json": "4e7b887440ab3d742dc34a0dc45aca377a8c8872fa08d3fe42c446bdd3b307ac"
+    }
+  },
+  "limits": [
+    "Same-site temporal persistence; no unseen-site evaluation.",
+    "Conditional bootstrap interval; spatial sample is only 16 grid cells.",
+    "Two incomplete days excluded across all cells; no imputation.",
+    "No station observations or validated panchayat joins.",
+    "Scores are cluster separation, not forecast accuracy."
+  ]
+}
